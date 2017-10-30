@@ -12,6 +12,7 @@
 		88AA5C9D1FA755B7000F3208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AA5C9B1FA755B7000F3208 /* Main.storyboard */; };
 		88AA5C9F1FA755B7000F3208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AA5C9E1FA755B7000F3208 /* Assets.xcassets */; };
 		88AA5CA21FA755B7000F3208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AA5CA01FA755B7000F3208 /* LaunchScreen.storyboard */; };
+		88AA5CAB1FA755FE000F3208 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5CAA1FA755FA000F3208 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88AA5C9E1FA755B7000F3208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AA5CA11FA755B7000F3208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AA5CA31FA755B7000F3208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AA5CAA1FA755FA000F3208 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		88AA5C961FA755B7000F3208 /* ProtocolExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				88AA5CA91FA755FA000F3208 /* Reachability */,
 				88AA5C971FA755B7000F3208 /* AppDelegate.swift */,
 				88AA5C991FA755B7000F3208 /* ViewController.swift */,
 				88AA5C9B1FA755B7000F3208 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				88AA5CA31FA755B7000F3208 /* Info.plist */,
 			);
 			path = ProtocolExtensions;
+			sourceTree = "<group>";
+		};
+		88AA5CA91FA755FA000F3208 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				88AA5CAA1FA755FA000F3208 /* Reachability.swift */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				88AA5C9A1FA755B7000F3208 /* ViewController.swift in Sources */,
 				88AA5C981FA755B7000F3208 /* AppDelegate.swift in Sources */,
+				88AA5CAB1FA755FE000F3208 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
